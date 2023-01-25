@@ -148,7 +148,7 @@ function TodoPage() {
               );
             })
           ) : (
-            <div className="no-taskContainer" style={{ background: "red" }}>
+            <div className="no-taskContainer">
               <div className="border-top"></div>
               <div className="no-task">No tasks</div>
               <div className="border-bottom"></div>
